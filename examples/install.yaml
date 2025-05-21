@@ -1,6 +1,6 @@
 apiVersion: pkg.crossplane.io/v1
 kind: Provider
 metadata:
-  name: upjet-provider-template
+  name: provider-pingdom
 spec:
-  package: upbound/upjet-provider-template:v0.1.0
+  package: mrudz/provider-pingdom:v0.1.0
