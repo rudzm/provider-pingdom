@@ -2,3 +2,6 @@ apiVersion: meta.pkg.crossplane.io/v1
 kind: Provider
 metadata:
   name: provider-pingdom
+spec:
+  controller:
+    image: us-south1-docker.pkg.dev/cicd-prod-34fd/infra/provider-pingdom-controller:v0.1.0

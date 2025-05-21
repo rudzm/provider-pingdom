@@ -1,0 +1,4 @@
+# syntax=docker/dockerfile:1.4
+
+FROM --platform=linux/amd64 scratch
+ADD package/ /package/
