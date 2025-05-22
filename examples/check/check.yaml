@@ -1,10 +1,10 @@
 apiVersion: check.mrudz.io/v1alpha1
 kind: Check
 metadata:
-  name: example-check
+  name: mrudz-p-c
 spec:
   forProvider:
-    name: example-check
+    name: mrudz-p-c
     host: example.com
     type: http
     resolution: 5
