@@ -3,4 +3,4 @@ kind: Provider
 metadata:
   name: provider-pingdom
 spec:
-  package: mrudz/provider-pingdom:v0.1.0
+  package: harbor.infra.internal.text.com/crossplane/provider-pingdom:v0.1.0
