@@ -1,6 +1,4 @@
-# syntax=docker/dockerfile:1.4
-
-FROM --platform=linux/amd64 golang:1.21 as builder
+FROM golang:1.21 as builder
 
 WORKDIR /workspace
 
